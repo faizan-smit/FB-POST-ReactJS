@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.headdiv{
+
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+
+}
+
+.person-name{
+
+  padding: 0;
+  margin: 0;
+
+}
+
+.person-name ~p{
+  color: #BABABC;
+  font-size: 12px;
+}
+
+.d-t{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 10px;
+
+}
+
+.headdiv img{
+
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+
+}
+
+.postdiv{
+
+  padding: 0px 0px 10px 0px;
+
+}
+
+.postdiv img{
+
+  max-width: 400px;
+
+}
+
+.postdiv p{
+  margin-left: 2px;
+  word-wrap: break-word;
+}
+
+.maindiv{
+
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5), 1px 1px 10px rgba(0,0,0,0.5);
+  width: fit-content;
+  margin: 10px auto;
+  padding: 1rem;
+  margin-bottom: 30px;
+  width: 400px;
+
+}
+
+.postFooter{
+  display: flex;   
+  justify-content: space-around;
+}
+
+.button{
+
+  display: flex;
+  color: #59626B;
+  padding: 0.3rem 1rem;
+  margin: 0 ;
+  flex-grow: 1;
+  text-align: center;
+  cursor: pointer;
+  min-height: 25px;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+
+.button:hover {
+
+  background-color: #F2F2F2;
+  border-radius: 5px;
+
+}
+
+hr{
+  border-top: 0.000001rem solid #59626B;
+  margin: 3px;
+}
